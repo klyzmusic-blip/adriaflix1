@@ -1,0 +1,31 @@
+{
+  "fontes": [
+    "https://archive.org/details/feature_films",
+
+    { "url": "https://archive.org/details/classic_tv", "tipo": "series", "nome": "TV Clássica", "icone": "📺", "limite": 20 },
+
+    { "url": "https://exemplo.com/meus-videos/", "nome": "Meu Site", "icone": "💙", "formato_poster": "landscape" },
+
+    { "url": "https://exemplo.com/filmes/pagina/{n}/", "paginas": 3, "limite": 60,
+      "incluir": "/filme/", "excluir": "/trailer" },
+
+    { "url": "https://www.youtube.com/playlist?list=PLxxxxxxxxxxxxxxxx", "tipo": "series", "nome": "Minha Playlist" },
+
+    { "url": "https://exemplo.com/podcast-em-video/feed.xml", "tipo": "series" },
+
+    { "url": "https://exemplo.com/sitemap.xml", "incluir": "/videos/", "limite": 40 },
+
+    { "url": "https://exemplo.com/canais.m3u", "tipo": "tv", "nome": "Canais", "icone": "📡" },
+
+    {
+      "url": "https://exemplo.com/filmes/",
+      "nome": "Com seletores",
+      "seletores": {
+        "cartao": { "item": "li.filme", "link": "a.ver@href", "titulo": ".t", "poster": "img.capa" },
+        "pagina": { "titulo": ".nome", "descricao": ".sinopse", "ano": ".ano", "generos": ".g", "video": "#player@data-stream" }
+      }
+    },
+
+    { "url": "https://exemplo.com/antiga/", "ativo": false }
+  ]
+}

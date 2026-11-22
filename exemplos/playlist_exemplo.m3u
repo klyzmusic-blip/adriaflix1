@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://exemplo.com/logos/canal1.png" group-title="Cultura",Canal Exemplo 1
+https://exemplo.com/streams/canal1/index.m3u8
+#EXTINF:-1 tvg-logo="https://exemplo.com/logos/canal2.png" group-title="Cultura",Canal Exemplo 2
+https://exemplo.com/streams/canal2.mp4

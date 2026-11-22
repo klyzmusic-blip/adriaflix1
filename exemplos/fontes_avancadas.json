@@ -1,0 +1,40 @@
+{
+  "fontes": [
+    {
+      "id": "classicos_ia",
+      "nome": "Filmes Clássicos",
+      "icone": "🎬",
+      "tipo": "movie",
+      "provedor": "internet_archive",
+      "query": "collection:feature_films AND mediatype:movies",
+      "limite": 40,
+      "exigir_licenca_aberta": false
+    },
+    {
+      "id": "meu_catalogo",
+      "nome": "Meu Catálogo",
+      "icone": "💙",
+      "tipo": "movie",
+      "provedor": "custom_json",
+      "url": "https://exemplo.com/meu-catalogo-legal.json",
+      "origem": "Acervo da minha escola de cinema"
+    },
+    {
+      "id": "meu_catalogo_local",
+      "nome": "Catálogo do Repositório",
+      "icone": "🗂️",
+      "tipo": "series",
+      "provedor": "custom_json",
+      "arquivo": "exemplos/catalogo_exemplo.json"
+    },
+    {
+      "id": "tv_aberta",
+      "nome": "Canais Abertos",
+      "icone": "📡",
+      "tipo": "tv",
+      "provedor": "m3u",
+      "url": "https://exemplo.com/canais-livres.m3u",
+      "origem": "Playlist de canais livres"
+    }
+  ]
+}

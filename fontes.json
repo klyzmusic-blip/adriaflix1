@@ -1,0 +1,31 @@
+{
+  "fontes": [
+    {
+      "id": "classicos_ia",
+      "nome": "Filmes Clássicos",
+      "icone": "🎬",
+      "tipo": "movie",
+      "provedor": "internet_archive",
+      "query": "collection:feature_films AND mediatype:movies",
+      "limite": 40
+    },
+    {
+      "id": "series_ia",
+      "nome": "Séries & Desenhos Clássicos",
+      "icone": "📺",
+      "tipo": "series",
+      "provedor": "internet_archive",
+      "query": "collection:classic_tv AND mediatype:movies",
+      "limite": 30
+    },
+    {
+      "id": "docs_ia",
+      "nome": "Documentários",
+      "icone": "📚",
+      "tipo": "movie",
+      "provedor": "internet_archive",
+      "query": "collection:opensource_movies AND subject:documentary",
+      "limite": 30
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "itens": [
+    {
+      "id": "minha-serie-classica",
+      "nome": "Minha Série Clássica",
+      "ano": 1952,
+      "descricao": "Exemplo de série para o provedor custom_json. Troque as URLs pelos seus vídeos legais.",
+      "poster": "https://exemplo.com/posters/minha-serie.jpg",
+      "fanart": "https://exemplo.com/fanart/minha-serie.jpg",
+      "generos": ["Comédia", "Clássico"],
+      "origem": "Acervo próprio",
+      "licenca": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "episodios": [
+        { "temporada": 1, "episodio": 1, "titulo": "Piloto", "url": "https://exemplo.com/videos/serie-s01e01.mp4" },
+        { "temporada": 1, "episodio": 2, "titulo": "A Onda", "url": "https://exemplo.com/videos/serie-s01e02.mp4" }
+      ]
+    }
+  ]
+}
